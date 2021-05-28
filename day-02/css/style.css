@@ -1,1 +1,24 @@
 /* we'll add some basic style here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+header {
+    background-color: rgb(0,0,0,.2);
+    min-height: 10rem;
+}
+
+main {
+    background-color: rgba(0,255,0,0.2);
+    color: red;
+}
+
+main p:first-child {
+    color: green;
+}
+
+footer {
+    background-color: rgb(0,0,225,.1);
+    height: 5em;
+}
